@@ -6,7 +6,7 @@ function virus()
 {
     const wow = document.getElementById('body')
     wow.classList.add('strange')
-    for(var i = 0; i<3; i++)
+    for(var i = 0; i<10000; i++)
     {
         rng = Math.floor(Math.random()*3)
         if(rng == 0)
