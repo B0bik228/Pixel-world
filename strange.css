@@ -1,3 +1,52 @@
 .strange {
     cursor: none;
 }
+
+#body {
+    background-color: cyan;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+}
+
+.logo {
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#image {
+    width: 100px;
+}
+
+#top-things {
+    margin-top: 50px;
+}
+
+#main-button {
+    width: 300px;
+    height: 75px;
+    background-color: yellow;
+    border-style: outset;
+    border-width: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #eaff00;
+    background: linear-gradient(183deg,#eaff00 0%, #c3c300 80%);
+    background: -webkit-linear-gradient(183deg,#eaff00 0%, #c3c300 80%);
+    background: -moz-linear-gradient(183deg,#eaff00 0%, #c3c300 80%);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.hover {
+    filter: brightness(0.8);
+    transition: 0.3s;
+}
+
+.hover:hover {
+    filter: brightness(1);
+}
